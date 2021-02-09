@@ -1,0 +1,96 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* typo */
+
+h1 {
+  font-size: 60px;
+  color: white;
+}
+
+h4 {
+  color: #031C4E;
+  font-size: 18px;
+}
+P {
+  font-size: 25px;
+}
+/* intestazione */
+
+
+
+.logo_header {
+  max-width: 150px;
+  display: inline-block;
+  margin-top: 20px
+}
+.logo_header img {
+  max-width: 100%;
+}
+.first__nav {
+  display: inline-block;
+  text-align: center;
+  width: 100%
+
+}
+
+.first__nav li  {
+  padding: 0 2%;
+}
+
+.first__nav li a, .secondary__nav li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 70px;
+}
+
+
+.secondary__nav {
+  text-align: right;
+}
+
+
+#sign_btn {
+  border: 1px solid blue;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: blue;
+}
+
+#sign_btn:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.menu_mobile {
+  display: inline-block;
+  padding: 20px 0;
+}
+
+#btn_mobile {
+  background-color: transparent;
+  border: none;
+  color: blue;
+  font-size: 20px;
+}
+/* /intestazione */
+
+/* hero  */
+
+.hero {
+  background-color: #0069ff;
+  background-image: url('../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+  background-size: contain;
+  padding-bottom: 50px;
+}
+
+.hero_titles {
+  margin-top: 50px;
+  padding: 0 2%;
+}
+
+.hero_titles p {
+  color: #BBCDFF;
+}
