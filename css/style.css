@@ -2,25 +2,33 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* intestazione */
+/* typo */
 
-.header_up {
-  margin-top: 30px;
-  height: 100px;
-
+h1 {
+  font-size: 60px;
+  color: white;
 }
 
+P {
+  font-size: 25px;
+}
+/* intestazione */
+
+
+
 .logo_header {
-  margin-top: -6px;
   width: 150px;
+  display: inline-block;
+  margin-top: 20px
 }
 .logo_header img {
   max-width: 100%;
 }
 .first__nav {
-  text-align: left;
+  display: inline-block;
   text-align: center;
-  max-width: 100%
+  width: 100%
+
 }
 
 .first__nav li  {
@@ -31,11 +39,13 @@ body {
   color: #000;
   text-decoration: none;
   font-weight: 500;
+  line-height: 70px;
 }
 
 
 .secondary__nav {
   text-align: right;
+  display: inline-block;
 
 }
 
@@ -62,6 +72,67 @@ body {
   color: blue;
   font-size: 20px;
 }
-
-
 /* /intestazione */
+
+/* hero  */
+
+.hero {
+  background-color: #0069ff;
+  background-image: url('../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+  background-size: contain;
+  padding-bottom: 30px;
+}
+
+.hero_titles {
+  margin-top: 50px;
+  padding: 0 2%;
+}
+
+.hero_titles p {
+  color: #BBCDFF;
+}
+
+
+
+.get_started {
+  margin-top: 50px;
+  background-color: white;
+  text-align: center;
+  padding: 30px 2%;
+  border-radius: 5px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+
+#create_btn {
+  width: 100%;
+  background-color: #579AFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 0;
+  margin-bottom: 10px;
+}
+
+#google_btn {
+  width: 100%;
+  background-color: transparent;
+  background-image: url('../img/google-icon.png');
+  background-position: left;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding: 7px 0;
+  padding-left: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 2px rgba(0,0,0,0.2);
+  font-weight: 500;
+}
+/* /hero  */
