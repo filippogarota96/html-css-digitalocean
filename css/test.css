@@ -18,7 +18,17 @@ P {
 }
 /* intestazione */
 
+#nav__bar_white {
+  background-color: white;
+}
 
+.nav__bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  background-color: white;
+}
 
 .logo_header {
   max-width: 150px;
@@ -84,6 +94,7 @@ P {
   background-image: url('../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
   background-size: contain;
   padding-bottom: 50px;
+  margin-top: 80px;
 }
 
 .hero_titles {

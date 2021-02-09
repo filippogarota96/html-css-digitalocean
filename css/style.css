@@ -18,8 +18,6 @@ P {
 }
 /* intestazione */
 
-
-
 .logo_header {
   width: 150px;
   display: inline-block;
@@ -83,6 +81,7 @@ P {
   background-image: url('../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
   background-size: contain;
   padding-bottom: 50px;
+  margin-top: 75px;
 }
 
 .hero_titles {
