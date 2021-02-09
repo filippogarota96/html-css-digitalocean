@@ -80,7 +80,7 @@ P {
   background-color: #0069ff;
   background-image: url('../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
   background-size: contain;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .hero_titles {
@@ -136,3 +136,42 @@ input {
   font-weight: 500;
 }
 /* /hero  */
+
+
+/* corpo del testo */
+
+#section_brand {
+  background-color: #F3F5F9;
+}
+.section_title {
+  text-align: center;
+  color: #6F7B97;
+  padding-top: 50px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.brands {
+  font-size: 0;
+  vertical-align: middle;
+}
+.logo_customer {
+  width:calc(100% / 6 );
+  display: inline-block;
+  padding: 0 1%;
+}
+
+.logo_customer img {
+  width: 100%;
+}
+
+
+
+
+
+/* responsive */
+
+@media screen and (max-width: 768px) {
+  .logo_customer {
+    width: 50%;
+  }
+}
