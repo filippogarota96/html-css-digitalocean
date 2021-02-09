@@ -209,7 +209,8 @@ input {
 
 .box {
   width: 100%;
-  padding-top: 50px;
+  padding-top: 40px;
+  padding-left: 10px;
 }
 .box img {
   margin-bottom: 20px;
