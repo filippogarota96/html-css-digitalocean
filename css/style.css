@@ -302,6 +302,42 @@ input {
   padding-left: 5px;
 }
 
+/* section world */
+
+#world {
+  background-image: url('../img/bg-map.svg');
+  background-color:#031b4e;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding: 100px 0;
+}
+
+.row_table {
+  border-bottom: 1px solid #fff;
+}
+
+.city_code P,
+.city_name p,
+.test_speed p {
+  font-size: 13px;
+}
+
+.city_code p {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.city_name p {
+  color:#98A2B7;
+}
+.test_speed {
+  text-align: right;
+}
+
+/* /section world */
+
 @media screen and (max-width: 768px) {
   .logo_customer {
     width: 50%;
