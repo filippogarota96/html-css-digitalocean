@@ -154,7 +154,7 @@ input {
 
 /* corpo del testo */
 
-#section_brand {
+#section_brand, #carousel_1 {
   background-color: #F3F5F9;
 }
 .section_title {
@@ -239,9 +239,7 @@ input {
 
 /* sezione primo carousel */
 
-#carousel_1 {
-  background-color: #F3F5F9;
-}
+
 
 .carousel_container {
   max-width: 900px;
@@ -272,10 +270,46 @@ input {
   font-weight: 500;
 }
 
+.buellet_container {
+  max-width: 900px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.spot_full {
+  background-color: #006AFF;
+}
+
+.bullet_spot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #006AFF;
+  display:inline-block;
+  margin-bottom: 10px;
+}
+
 /* responsive */
+
+.box a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+.box span  {
+  padding-top: 3px;
+  padding-left: 5px;
+}
 
 @media screen and (max-width: 768px) {
   .logo_customer {
     width: 50%;
+  }
+  .box {
+    padding-right: 15%;
+  }
+  .carousel_container span {
+    display: none;
   }
 }
