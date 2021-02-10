@@ -405,8 +405,30 @@ input {
 }
 /* /secondo carousel */
 
+#last_section {
+  background-color: #0069ff;
+  background-image: url('../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+  background-size: cover;
+  background-position: left top;
+}
 
-
+.create_account {
+  text-align: center;
+  padding: 30px 0;
+}
+.create_account h2 {
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+#create_account_botton {
+  background-color: #fff;
+  color: #0D73FF;
+  font-weight: 500;
+  padding: 15px 30px;
+  border: 1px solid transparent;
+  margin-bottom: 20px;
+}
 
 
 
