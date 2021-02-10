@@ -16,8 +16,17 @@ h4 {
 P {
   font-size: 25px;
 }
+
+a {
+  text-decoration: none;
+}
+
+
 /* intestazione */
 
+#nav__bar_white {
+  background-color: white;
+}
 .logo_header {
   width: 150px;
   display: inline-block;
@@ -104,6 +113,9 @@ P {
   border-radius: 5px;
 }
 
+.get_started a {
+  text-decoration: none;
+}
 input {
   display: block;
   width: 100%;
@@ -177,6 +189,10 @@ input {
   font-size: 15px;
 }
 
+.customers_stories a {
+  text-decoration: none;
+}
+
 /* seconda sezione */
 
 .section_title h2 {
@@ -218,6 +234,42 @@ input {
   font-size: 16px;
   color: #66728E;
   font-weight: 400;
+}
+/* /seconda sezione */
+
+/* sezione primo carousel */
+
+#carousel_1 {
+  background-color: #F3F5F9;
+}
+
+.carousel_container {
+  max-width: 900px;
+  margin:  30px auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.carousel_container img {
+  width: 80%;
+  margin: 20px 0;
+}
+
+.carousel_container span {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.carousel_container a {
+  color:#000;
+}
+
+.carousel_container p {
+  font-size: 18px;
+  color:#000;
+  font-weight: 500;
 }
 
 /* responsive */
