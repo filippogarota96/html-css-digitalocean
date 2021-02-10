@@ -21,7 +21,13 @@ a {
   text-decoration: none;
 }
 
+.section_grey {
+  background-color:#F3F5F9;
+}
 
+.fa-chevron-left {
+  color: #6F7B97;
+}
 /* intestazione */
 
 #nav__bar_white {
@@ -154,9 +160,7 @@ input {
 
 /* corpo del testo */
 
-#section_brand, #carousel_1 {
-  background-color: #F3F5F9;
-}
+
 .section_title {
   text-align: center;
   padding-top: 50px;
@@ -243,7 +247,7 @@ input {
 
 .carousel_container {
   max-width: 900px;
-  margin:  30px auto;
+  margin: 30px auto;
   text-align: center;
   vertical-align: middle;
 }
@@ -258,6 +262,7 @@ input {
   margin: 0 20px;
   font-size: 30px;
   font-weight: 600;
+
 }
 
 .carousel_container a {
@@ -270,10 +275,11 @@ input {
   font-weight: 500;
 }
 
-.buellet_container {
+.bullet_container {
   max-width: 900px;
   margin: 10px auto;
   text-align: center;
+  padding: 25px 0;
 }
 
 .spot_full {
@@ -346,14 +352,57 @@ input {
   text-decoration: none;
   color: #00d7d2;
 }
-
-
-
 /* /section world */
+
+
+
 
 
 /* secondo carousel */
 
+
+.carousel_text {
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+  background-color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 3%;
+}
+.carousel_text img {
+  max-width: 45%;
+  padding-top: 60px;
+}
+
+.carousel_text p:first-of-type  {
+  font-size: 20px;
+  color: #5C6A88;
+  margin: 10px 0;
+}
+.carousel_text p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.carousel_text p:last-of-type {
+  color: #031C4E;
+  font-size: 15px;
+}
+
+.carousel_text div {
+  margin: 30px 0;
+  color: #006AFF;
+}
+
+.carousel_text  a {
+  text-decoration: none;
+  color: #006AFF;
+}
+.carousel_text .link_arrow {
+  font-size: 15px;
+  color: #006AFF;
+}
 /* /secondo carousel */
 
 
