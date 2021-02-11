@@ -500,6 +500,7 @@ footer {
   text-align: left;
   padding: 15px 1%;
   border-radius: 5px;
+  vertical-align: middle;
 }
 .arrow-right {
   width: 0;
@@ -512,8 +513,18 @@ footer {
   margin-bottom: 10px;
 }
 
-
-
+.sammy_icon {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  vertical-align: bottom;
+  background-color: #006AFF;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+.sammy_icon img {
+  max-width: 100%;
+}
 
 @media screen and (max-width: 768px) {
   .logo_customer {
