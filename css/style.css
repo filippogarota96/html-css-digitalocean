@@ -544,6 +544,7 @@ footer {
   background-color: red;
   padding: 4px 9px;
   border-radius: 50%;
+  text-decoration: none;
 }
 @media screen and (max-width: 768px) {
   .logo_customer {
@@ -562,5 +563,25 @@ footer {
 
   footer ul {
     padding-left: 0;
+  }
+
+  .baloon_text, .arrow-right {
+    display: none;
+  }
+
+  .sammy_icon {
+    margin-right: 20px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+
+  .baloon_text, .arrow-right {
+    display: none;
+  }
+
+  .sammy_icon {
+    margin-right: 30px;
   }
 }
