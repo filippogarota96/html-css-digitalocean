@@ -501,6 +501,8 @@ footer {
   padding: 15px 1%;
   border-radius: 5px;
   vertical-align: middle;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
 }
 .arrow-right {
   width: 0;
@@ -511,6 +513,7 @@ footer {
   display: inline-block;
   vertical-align: bottom;
   margin-bottom: 10px;
+
 }
 
 .sammy_icon {
@@ -521,11 +524,27 @@ footer {
   background-color: #006AFF;
   border-radius: 5px;
   padding-top: 5px;
+  position: relative;
 }
 .sammy_icon img {
   max-width: 100%;
 }
 
+.notification {
+  position: absolute;
+  top: -15px;
+  right: -13px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 7px 4px;
+}
+
+.notification a {
+  color: #fff;
+  background-color: red;
+  padding: 4px 9px;
+  border-radius: 50%;
+}
 @media screen and (max-width: 768px) {
   .logo_customer {
     width: 50%;
